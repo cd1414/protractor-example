@@ -97,7 +97,15 @@ describe('demo calculator tests', function () {
     });
     
     it('Fail test', function() {
-         homepage.click();
+        homepage.enterFirstNumber('2');
+        homepage.enterSecondNumber('2');
+        homepage.selectOperator('/');
+
+        // click on button
+        homepage.clickGo();
+
+        // verify results
+        homepage.verifyResult('50');
     });
 
 })
