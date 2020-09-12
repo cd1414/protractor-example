@@ -1,0 +1,29 @@
+{
+  "name": "protractor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "jasmine-allure-reporter": "^1.0.2",
+    "jasmine-reporters": "^2.3.2",
+    "protractor-html-reporter-2": "^1.0.4",
+    "protractor-jasmine2-screenshot-reporter": "^0.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cd1414/protractor-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cd1414/protractor-example/issues"
+  },
+  "homepage": "https://github.com/cd1414/protractor-example#readme"
+}
