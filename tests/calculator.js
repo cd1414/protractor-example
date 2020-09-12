@@ -95,17 +95,4 @@ describe('demo calculator tests', function () {
         // verify results
         homepage.verifyResult('1');
     });
-    
-    it('Divide fail test', function() {
-        homepage.enterFirstNumber('2');
-        homepage.enterSecondNumber('2');
-        homepage.selectOperator('/');
-
-        // click on button
-        homepage.clickGo();
-
-        // verify results
-        homepage.verifyResult('50');
-    });
-
 })
