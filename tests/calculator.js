@@ -90,10 +90,10 @@ describe('demo calculator tests', function () {
         homepage.selectOperator('/');
 
         // click on button
-        homepage.ClickGo();
+        homepage.clickGo();
 
         // verify results
-        homepage.verifyResult('4');
+        homepage.verifyResult('1');
     });
 
 })
