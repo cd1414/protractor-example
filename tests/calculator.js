@@ -95,4 +95,5 @@ describe('demo calculator tests', function () {
         // verify results
         homepage.verifyResult('1');
     });
-})
+    
+});
