@@ -96,7 +96,7 @@ describe('demo calculator tests', function () {
         homepage.verifyResult('1');
     });
     
-    it('Fail test', function() {
+    it('Divide fail test', function() {
         homepage.enterFirstNumber('2');
         homepage.enterSecondNumber('2');
         homepage.selectOperator('/');
