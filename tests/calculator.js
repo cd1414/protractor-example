@@ -93,7 +93,7 @@ describe('demo calculator tests', function () {
         homepage.clickGo();
 
         // verify results
-        homepage.verifyResult('3');
+        homepage.verifyResult('1');
     });
 
 })
