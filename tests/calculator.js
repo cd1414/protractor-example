@@ -95,5 +95,9 @@ describe('demo calculator tests', function () {
         // verify results
         homepage.verifyResult('1');
     });
+    
+    it('Fail test', function() {
+         homepage.click();
+    });
 
 })
